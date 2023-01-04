@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.BirinciFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı Giriniz... : "
+        android:id="@+id/editText_KullaniciAdi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_KullaniciSifresi"
+        app:layout_constraintLeft_toLeftOf="@+id/editText_KullaniciAdi"
+        app:layout_constraintRight_toRightOf="@+id/editText_KullaniciAdi"
+        app:layout_constraintTop_toBottomOf="@+id/editText_KullaniciAdi"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="25dp"
+        android:hint="Kullanıcı Şifresi Giriniz... :"
+    ></EditText>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
